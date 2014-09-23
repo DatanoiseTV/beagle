@@ -5,7 +5,7 @@
         <param name="android-package" value="org.apache.cordova.App" />
     </feature>
     <feature name="Geolocation">
-        <param name="android-package" value="org.apache.cordova.GeoBroker" />
+        <param name="android-package" value="org.apache.cordova.core.GeoBroker" />
     </feature>
     <feature name="NetworkStatus">
         <param name="android-package" value="org.apache.cordova.core.NetworkManager" />
@@ -25,7 +25,7 @@
     <author email="david@smewebsites.com" href="http://www.smewebsites.com">
         SMEWebsites
     </author>
-    <feature name="http://api.phonegap.com/1.0/device" />
+    <preference name="permissions" value="none" />
     <preference name="orientation" value="portrait" />
     <preference name="target-device" value="universal" />
     <preference name="fullscreen" value="true" />
