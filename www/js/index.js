@@ -11,7 +11,7 @@
  */
 var app = {
 	SERVER_URL : "http://wiki.datanoise.net/beacon/submit.php",
-	HIGH_GPS_ACCURACY : true,	// someemulators require true.
+	HIGH_GPS_ACCURACY : false,	// someemulators require true.
 
 	position : null,
 	deviceId : 0,
