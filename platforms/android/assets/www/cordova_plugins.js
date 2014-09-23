@@ -71,7 +71,8 @@ module.exports.metadata =
     "org.apache.cordova.core.geolocation": "0.2.0",
     "org.apache.cordova.core.network-information": "0.2.0",
     "org.apache.cordova.core.splashscreen": "0.2.0",
-    "org.apache.cordova.core.dialogs": "0.2.0"
+    "org.apache.cordova.core.dialogs": "0.2.0",
+    "org.apache.cordova.geolocation": "0.3.11-dev"
 }
 // BOTTOM OF METADATA
 });
