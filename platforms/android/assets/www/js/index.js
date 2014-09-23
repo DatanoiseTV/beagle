@@ -10,8 +10,8 @@
  * KIND, either express or implied. 
  */
 var app = {
-	SERVER_URL : "http://artengine.ca/nnrbeacons/submit.php",
-	HIGH_GPS_ACCURACY : false,	// some emulators require true.
+        SERVER_URL : "http://wiki.datanoise.net/beacon/submit.php",
+        HIGH_GPS_ACCURACY : true,       // someemulators require true.
 
 	position : null,
 	deviceId : 0,
